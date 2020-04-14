@@ -12,19 +12,21 @@
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <section class="section">
       <!-- Split the Screen into Columns to Center the Content -->
       <div class="columns">
-        <div class="column is-half is-offset-one-quarter">
+        <div class="column column is-8 is-offset-2">
           <!-- Navigation Menu -->
           <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
               <div class="content">
-                <h1 class="title has-text-black-bis is-nav-title">Kelvin Bianchi</h1>
-                <p>kelvinbianchi@gmail.com</p>
+                <h1 class="title is-nav-title">
+                  Kelvin Bianchi
+                </h1>
+                <p class="has-gray-text">kelvinbianchi@gmail.com</p>
               </div>
             </div>
             <div class="navbar-menu">
@@ -32,10 +34,7 @@
                 <a class="navbar-item has-text-black-bis is-active-item">
                   Games
                 </a>
-                <a
-                  class="navbar-item has-text-black-bis"
-                  href="about.html"
-                >
+                <a class="navbar-item has-text-black-bis" href="about.html">
                   About
                 </a>
                 <a class="navbar-item has-text-black-bis">
@@ -45,11 +44,17 @@
             </div>
           </nav>
           <!-- Divider -->
-          <hr>
+          <hr class="has-background-primary" />
+          <!-- Page Title -->
+          <div class="column is-full">
+            <div class="content has-text-centered">
+              <h1 class="title is-uppercase has-text-weight-light">Games</h1>
+            </div>
+          </div>
           <!-- Games List -->
           <div class="columns">
             <div class="column">
-              <div class="card">
+              <div class="card no-box-shadow">
                 <div class="card-image">
                   <a href="game/spycrow.html">
                     <figure class="image is-4by3">
@@ -63,10 +68,15 @@
                 <div class="card-content">
                   <div class="media">
                     <div class="media-content has-text-centered">
-                      <p class="title is-4">Spycrow</p>
+                      <p class="title is-size-5">Spycrow</p>
+                      <p class="subtitle is-size-7">Some placeholder text about the game.</p>
                       <div class="tags roles">
-                        <span class="tag is-success is-rounded">Game Designer</span>
-                        <span class="tag is-info is-rounded">Game Developer</span>
+                        <span class="tag is-success is-rounded"
+                          >Game Designer</span
+                        >
+                        <span class="tag is-info is-rounded"
+                          >Game Developer</span
+                        >
                       </div>
                     </div>
                   </div>
@@ -74,7 +84,37 @@
               </div>
             </div>
             <div class="column">
-              <div class="card">
+              <div class="card no-box-shadow">
+                <div class="card-image">
+                  <a href="">
+                    <figure class="image is-4by3">
+                      <img
+                        src="../assets/img/thumbnails/flashback-runner.jpg"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content has-text-centered">
+                      <p class="title is-size-5">Flashback Runner</p>
+                      <p class="subtitle is-size-7">Some placeholder text about the game.</p>
+                      <div class="tags roles">
+                        <span class="tag is-success is-rounded"
+                          >Game Designer</span
+                        >
+                        <span class="tag is-info is-rounded"
+                          >Game Developer</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card no-box-shadow">
                 <div class="card-image">
                   <a href="">
                     <figure class="image is-4by3">
@@ -88,35 +128,15 @@
                 <div class="card-content">
                   <div class="media">
                     <div class="media-content has-text-centered">
-                      <p class="title is-4">Flashback Runner</p>
+                      <p class="title is-size-5">Apochic</p>
+                      <p class="subtitle is-size-7">Some placeholder text about the game.</p>
                       <div class="tags roles">
-                        <span class="tag is-success is-rounded">Game Designer</span>
-                        <span class="tag is-info is-rounded">Game Developer</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <div class="card-image">
-                  <a href="">
-                    <figure class="image is-4by3">
-                      <img
-                        src="https://bulma.io/images/placeholders/1280x960.png"
-                        alt="Placeholder image"
-                      />
-                    </figure>
-                  </a>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content has-text-centered">
-                      <p class="title is-4">Apochic</p>
-                      <div class="tags roles">
-                        <span class="tag is-success is-rounded">Game Designer</span>
-                        <span class="tag is-info is-rounded">Game Developer</span>
+                        <span class="tag is-success is-rounded"
+                          >Game Designer</span
+                        >
+                        <span class="tag is-info is-rounded"
+                          >Game Developer</span
+                        >
                       </div>
                     </div>
                   </div>
