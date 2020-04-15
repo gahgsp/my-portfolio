@@ -43,3 +43,7 @@ h1, h3, strong {
 .navbar-item:hover {
   color: hsl(171, 100%, 41%) !important;
 }
+
+.is-game-gallery-image {
+  cursor: pointer;
+}
