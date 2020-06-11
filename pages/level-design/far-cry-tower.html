@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Far Cry - Tower Traversal Puzzle - Level Design — KELVIN BIANCHI
+    </title>
+    <link rel="icon" href="../../assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <!-- [BEGIN] Image Viewer Library -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.5.0/viewer.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.5.0/viewer.min.css"
+    />
+    <!-- [END] Image Viewer Library -->
+    <!-- Page Script -->
+    <script defer src="../../js/game.js"></script>
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <!-- Split the Screen into Columns to Center the Content -->
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <!-- Navigation Menu -->
+          <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a href="../../index.html">
+                <div class="content">
+                  <h1 class="title is-nav-title">
+                    Kelvin Bianchi
+                  </h1>
+                  <p class="has-gray-text">kelvinbianchi@gmail.com</p>
+                </div>
+              </a>
+            </div>
+            <div class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item has-gray-text" href="../games.html">
+                  Games
+                </a>
+                <a
+                  class="navbar-item has-gray-text"
+                  href="../level-design.html"
+                >
+                  Level Design
+                </a>
+                <a class="navbar-item has-gray-text" href="../about.html">
+                  About
+                </a>
+                <a class="navbar-item has-gray-text">
+                  Resume
+                </a>
+              </div>
+            </div>
+          </nav>
+          <!-- Divider -->
+          <hr class="has-background-primary" />
+          <!-- Header of the Game Page-->
+          <div class="columns">
+            <div class="column">
+              <figure class="image is-flex-mobile has-text-centered">
+                <iframe
+                  width="583"
+                  height="328"
+                  src="https://www.youtube.com/embed/TyscNIMoKNY?showinfo=0"
+                ></iframe>
+              </figure>
+            </div>
+            <div class="column">
+              <div class="content">
+                <h1 class="is-uppercase has-text-weight-light">
+                  Far Cry - Tower Traversal Puzzle
+                </h1>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  Level designed during the Level Design Lobby Bi-Weekly
+                  Challenge.
+                  <br />
+                  The objective was to develop a level based on the mechanics
+                  from the Far Cry series and create a traversal puzzle using
+                  the concepts of the towers present on the game series.
+                </p>
+                <p>
+                  <strong
+                    class="is-uppercase has-text-weight-semibold is-game-description"
+                    >Tools:&nbsp;</strong
+                  >
+                  <strong
+                    class="has-text-weight-light has-gray-text is-game-description"
+                    >Unity, Pro Builder (Unity Asset)</strong
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column is-full">
+              <hr />
+              <div class="content">
+                <h3 class="has-text-weight-light is-uppercase">
+                  Level Brief:&nbsp;
+                </h3>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  Design one of the famous Far Cry towers.<br />
+                  The tower should consist of: maximum of 5 enemies, a traversal
+                  puzzle, interactions at the top and a maximum duration of 5
+                  minutes.
+                </p>
+              </div>
+              <hr />
+              <div class="content">
+                <h3 class="has-text-weight-light is-uppercase">
+                  Design Process:&nbsp;
+                </h3>
+                <h5>References:</h5>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  After finishing the Far Cry 4 game, I had enough content to
+                  build the tower and it's traversal puzzle. But, in order to
+                  have a variety of styles in the challenges and puzzles, I
+                  watched several gameplays from the previous games and I wrote
+                  down some ideas from them.
+                </p>
+                <div class="columns">
+                  <div class="column is-half">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                        src="../../assets/img/gallery/far-cry-tower/far-cry-3-tower.png"
+                        alt="Far Cry 3 - Tower - KELVIN BIANCHI - Level Design"
+                      />
+                    </figure>
+                  </div>
+                  <div class="column is-half">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                        src="../../assets/img/gallery/far-cry-tower/far-cry-4-tower.jpg"
+                        alt="Far Cry 4 - Tower - KELVIN BIANCHI - Level Design"
+                      />
+                    </figure>
+                  </div>
+                </div>
+                <h5>Basic Mechanics:</h5>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  When I started brainstorming the ideas for the puzzles, I
+                  decided that I should have the following mechanics: crouch,
+                  climb a ladder and climb a rope.
+                </p>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  For the basic FPS movement and to save some time, I downloaded
+                  a FPS Asset from the Unity Asset Store. After that, I
+                  customized and developed from scratch the three mechanics that
+                  I set as required for the development of the level.
+                </p>
+                <div class="columns">
+                  <div class="column is-one-third">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                        src="../../assets/img/gallery/far-cry-tower/crouch.PNG"
+                        alt="Far Cry 3 - Tower - Crouch - KELVIN BIANCHI - Level Design"
+                      />
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                        src="../../assets/img/gallery/far-cry-tower/ladder.PNG"
+                        alt="Far Cry 4 - Tower - Ladder - KELVIN BIANCHI - Level Design"
+                      />
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                        src="../../assets/img/gallery/far-cry-tower/rope.PNG"
+                        alt="Far Cry 4 - Tower - Rope - KELVIN BIANCHI - Level Design"
+                      />
+                    </figure>
+                  </div>
+                </div>
+                <h5>Designing the Tower:</h5>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  Before starting building the tower, I researched the average
+                  size of the towers and I've found out that a tower with 6
+                  floors is the most suitable in order to apply different
+                  puzzles and mechanics.
+                </p>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  With that in mind, then I started designing the puzzles and
+                  applying them to the floors. Using all the information I had
+                  previously gathered this task came out to be really fun.
+                </p>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  I've tried to use as many puzzles as possible such as: findind
+                  the tower entrance, walking on tight spaces and climbing ropes
+                  that are high enough to kill the player.
+                </p>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  On the last floor, I've added the interaction required in the
+                  task: once the player reaches the top, he can hack the signal.
+                  The light at the top will then turn to green to show that the
+                  tower was successfully hacked.
+                </p>
+                <h5>Feedback:</h5>
+                <p
+                  class="has-text-weight-light is-game-description has-gray-text"
+                >
+                  After some playtesting, I received the following feedbacks and
+                  applied them to the level:
+                </p>
+                <ul>
+                  <li
+                    class="has-text-weight-light is-game-description has-gray-text"
+                  >
+                    Pacing: in the first version, there was no enemies on the
+                    level. So, after the feedback I've added three enemies at
+                    the entrace of the tower to change the pacing;
+                  </li>
+                  <li
+                    class="has-text-weight-light is-game-description has-gray-text"
+                  >
+                    Tower Entrance: once the player reaches the base of the
+                    tower, there are "obvious" entrances that are locked. So the
+                    player can walk around the tower and see the entrance
+                    through a hole in the wall. Even with that, the search was
+                    quite easy, so I received the feedback to hide the main
+                    entrance with some destructible boxes, another mechanic that
+                    can be found on the games.
+                  </li>
+                </ul>
+                <div class="columns">
+                  <div class="column is-half">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                        src="../../assets/img/gallery/far-cry-tower/enemies.PNG"
+                        alt="Far Cry 3 - Tower - Enemies - KELVIN BIANCHI - Level Design"
+                      />
+                    </figure>
+                  </div>
+                  <div class="column is-half">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                        src="../../assets/img/gallery/far-cry-tower/main-entrance.PNG"
+                        alt="Far Cry 4 - Tower - Main Entrance - KELVIN BIANCHI - Level Design"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

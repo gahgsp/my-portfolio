@@ -47,3 +47,17 @@ h1, h3, strong {
 .is-game-gallery-image {
   cursor: pointer;
 }
+
+.has-no-margin-bottom {
+  margin-bottom: 0px !important;
+}
+
+.is-orange-mark {
+  background-color: #FF3D00;
+  color: white;
+}
+
+.is-portrait {
+  height: 450px;
+  width: 450px;
+}
