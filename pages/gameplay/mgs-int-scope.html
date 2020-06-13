@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Strange Enemies — KELVIN BIANCHI</title>
+    <title>Metal Gear Solid: The Phantom Pain - Int Scope — KELVIN BIANCHI</title>
     <link rel="icon" href="../../assets/favicon.ico" />
     <link
       rel="stylesheet"
@@ -83,37 +83,19 @@
           <div class="columns">
             <div class="column">
               <figure class="image is-flex-mobile has-text-centered">
-                <iframe
-                  width="583"
-                  height="328"
-                  src="https://www.youtube.com/embed/RtcEuoy5-Kg?showinfo=0"
-                ></iframe>
+                <iframe src="https://drive.google.com/file/d/1u-cnTshFZ6bOHrlpAtGW3WqMFolAh6dY/preview" width="583" height="328"></iframe>
               </figure>
               <div class="content has-text-centered" style="padding-top: 1rem;">
-                <a class="button is-primary" href="https://bianchiproductions.itch.io/strange-enemies" target="_blank">Visit the Website</a>
+                <a class="button is-primary" href="https://github.com/gahgsp/MGSV-Binoculars" target="_blank">Source Code</a>
               </div>
             </div>
             <div class="column">
               <div class="content">
-                <h1 class="is-uppercase has-text-weight-light">A lot of... Strange Enemies!</h1>
+                <h1 class="is-uppercase has-text-weight-light">Metal Gear Solid: The Phantom Pain - Int Scope</h1>
                 <p
                   class="has-text-weight-light is-game-description has-gray-text"
                 >
-                  This game is a 2D platformer with action elements that was developed in under 48 hours for the Quarantine Jam with the theme "A lof of everything you want!".
-                  <br>
-                  This was my first jam and I had the opportunity to work with another experienced game programmer.
-                  <br>
-                  I was very fortunate to have this experience as I learned different subjects on game development.
-                </p>
-                <p>
-                  <strong
-                    class="is-uppercase has-text-weight-semibold is-game-description"
-                    >Roles:&nbsp;</strong
-                  >
-                  <strong
-                    class="has-text-weight-light has-gray-text is-game-description"
-                    >Game Designer, Game Developer, Level Designer</strong
-                  >
+                  The goal of this project was to recreate the basic features on the Int Scope from the game Metal Gear Solid: The Phantom Pain in order to learn more about Unreal Engine plus the UMG.
                 </p>
                 <p>
                   <strong
@@ -122,27 +104,7 @@
                   >
                   <strong
                     class="has-text-weight-light has-gray-text is-game-description"
-                    >Unity</strong
-                  >
-                </p>
-                <p>
-                  <strong
-                    class="is-uppercase has-text-weight-semibold is-game-description"
-                    >Team:&nbsp;</strong
-                  >
-                  <strong
-                    class="has-text-weight-light has-gray-text is-game-description"
-                    >2 members</strong
-                  >
-                </p>
-                <p>
-                  <strong
-                    class="is-uppercase has-text-weight-semibold is-game-description"
-                    >Platform:&nbsp;</strong
-                  >
-                  <strong
-                    class="has-text-weight-light has-gray-text is-game-description"
-                    >PC</strong
+                    >Unreal Engine, Blueprint</strong
                   >
                 </p>
               </div>
@@ -153,19 +115,44 @@
               <hr />
               <div class="content">
                 <h3 class="has-text-weight-light is-uppercase">
-                  What I did:&nbsp;
+                  Development process:&nbsp;
                 </h3>
-                <ol type="1">
-                  <li class="is-game-description">
-                    Designed the game core mechanics;
-                  </li>
-                  <li class="is-game-description">
-                    Designed the sole level of the game, using different approaches to diversify the platforms mechanics;
-                  </li>
-                  <li class="is-game-description">
-                    Implemented the player actions and movement.
-                  </li>
-                </ol>
+                <p class="has-text-weight-light is-game-description has-gray-text">
+                  For this project, once I decided that I would recriate this item from the game, I had already in mind the core mechanics I would like to have before calling the project finished:
+                  <ul>
+                    <li class="has-text-weight-light is-game-description has-gray-text">The game should have the same camera behavior as the game: it should be a third person camera but once the Int Scope is equipped, the camera should smoothly switch to a first person camera;</li>
+                    <li class="has-text-weight-light is-game-description has-gray-text">It should be possible to tag an enemy and after tagging the enemy, it could be seem through walls and other objects;</li>
+                    <li class="has-text-weight-light is-game-description has-gray-text">A tag icon should appear next to the enemy, with the distance from the player to the enemy being calculated in real-time;</li>
+                    <li class="has-text-weight-light is-game-description has-gray-text">The zoom counter on the bottom left should be updated as the player keeps zooming in.</li>
+                  </ul>
+                </p>
+                <div class="columns">
+                  <div class="column is-one-third">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                        src="../../assets/img/gallery/int-scope/zoom-counter.png"
+                        alt="MGS: The Phantom Pain - Zoom Counter - KELVIN BIANCHI - Gameplay Project"
+                      />
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                      src="../../assets/img/gallery/int-scope/enemy-tag.png"
+                      alt="MGS: The Phantom Pain - Enemy Tag - KELVIN BIANCHI - Gameplay Project"
+                      />
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="image is-game-gallery-image">
+                      <img
+                      src="../../assets/img/gallery/int-scope/highlighted-enemy.png"
+                      alt="MGS: The Phantom Pain - Highlighted Enemy - KELVIN BIANCHI - Gameplay Project"
+                      />
+                    </figure>
+                  </div>
+                </div>
+                <p class="has-text-weight-light is-game-description has-gray-text">During the development of this project, I really struggled with the creation of the material that would make possible the enemy be seem through the objects. Fortunately, I've found <a href="https://www.youtube.com/watch?v=rL7VUeZzRyQ" target="_blank">this awesome tutorial by Rodrigo Villani</a> that teaches in details how to work with the material system on the Unreal Engine.</p>
               </div>
               <hr />
               <div class="content">
@@ -174,38 +161,15 @@
                 </h3>
                 <ol type="1">
                   <li class="is-game-description">
-                    Create and develop a game in less than 48 hours under pressure;
+                    Improved my skills using the Blueprints from the Unreal Engine;
                   </li>
                   <li class="is-game-description">
-                    Tasks organization to keep the objectives aligned with all the team members;
+                    Gained some knowledge working with the UMG to create interfaces that have dynamic values and effects;
                   </li>
                   <li class="is-game-description">
-                    Object Pooling to keep the game with high performance even when spawning many entities.
+                    Learned how to create complex materials using the Unreal Engine built-in tool.
                   </li>
                 </ol>
-              </div>
-              <hr />
-              <div class="content">
-                <h3 class="has-text-weight-light is-uppercase">
-                  Gallery:&nbsp;
-                </h3>
-                <div class="columns">
-                  <div class="column is-one-third">
-                    <figure class="image is-game-gallery-image">
-                      <img src="../../assets/img/gallery/strange-enemies/level.png" alt="Strange Enemies - KELVIN BIANCHI - Level" />
-                    </figure>
-                  </div>
-                  <div class="column is-one-third">
-                    <figure class="image is-game-gallery-image">
-                      <img src="../../assets/img/gallery/strange-enemies/enemies.png" alt="Strange Enemies - KELVIN BIANCHI - Enemy" />
-                    </figure>
-                  </div>
-                  <div class="column is-one-third">
-                    <figure class="image is-game-gallery-image">
-                      <img src="../../assets/img/gallery/strange-enemies/game-over.png" alt="Strange Enemies - KELVIN BIANCHI - Game Over Screen" />
-                    </figure>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

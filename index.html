@@ -13,6 +13,7 @@
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
+    <script defer src="js/hamburguer-menu.js"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -20,15 +21,34 @@
       <!-- Hero Head (Header) -->
       <div class="hero-head">
         <nav class="navbar is-fixed-top">
-          <div class="navbar-menu">
+          <div class="navbar-brand">
+            <a
+              role="button"
+              class="navbar-burger"
+              data-target="navMenu"
+              aria-label="menu"
+              aria-expanded="false"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div class="navbar-menu" id="navMenu">
             <div class="navbar-end">
-              <a class="navbar-item has-gray-text" href="./pages/games.html">
-                Games
+              <a class="navbar-item has-gray-text" href="pages/gameplay.html">
+                Gameplay Projects
               </a>
-              <a class="navbar-item has-gray-text" href="./pages/level-design.html">
+              <a
+                class="navbar-item has-gray-text"
+                href="pages/level-design.html"
+              >
                 Level Design
               </a>
-              <a class="navbar-item has-gray-text" href="./pages/about.html">
+              <a class="navbar-item has-gray-text" href="pages/games.html">
+                Games
+              </a>
+              <a class="navbar-item has-gray-text" href="pages/about.html">
                 About
               </a>
               <a class="navbar-item has-gray-text">
@@ -48,8 +68,15 @@
             Gameplay Programmer & Level Designer
           </h2>
           <div class="buttons is-centered">
-            <a class="button is-primary is-outlined" href="./pages/games.html"
-              >Games</a
+            <a
+              class="button is-primary is-outlined"
+              href="./pages/gameplay.html"
+              >Gameplay</a
+            >
+            <a
+              class="button is-primary is-outlined"
+              href="./pages/level-design.html"
+              >Level Design</a
             >
             <a class="button is-primary is-outlined" href="./pages/about.html"
               >About</a

@@ -25,6 +25,7 @@
     <!-- [END] Image Viewer Library -->
     <!-- Page Script -->
     <script defer src="../../js/game.js"></script>
+    <script defer src="../../js/hamburguer-menu.js"></script>
     <!-- Shared Styles -->
     <link rel="stylesheet" href="../../styles.css" />
   </head>
@@ -44,14 +45,28 @@
                   <p class="has-gray-text">kelvinbianchi@gmail.com</p>
                 </div>
               </a>
+              <a
+              role="button"
+              class="navbar-burger"
+              data-target="navMenu"
+              aria-label="menu"
+              aria-expanded="false"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
             </div>
-            <div class="navbar-menu">
+            <div class="navbar-menu" id="navMenu">
               <div class="navbar-end">
-                <a class="navbar-item has-gray-text" href="../games.html">
-                  Games
+                <a class="navbar-item has-gray-text" href="../gameplay.html">
+                  Gameplay Projects
                 </a>
                 <a class="navbar-item has-gray-text" href="../level-design.html">
                   Level Design
+                </a>
+                <a class="navbar-item has-gray-text" href="../games.html">
+                  Games
                 </a>
                 <a class="navbar-item has-gray-text" href="../about.html">
                   About
