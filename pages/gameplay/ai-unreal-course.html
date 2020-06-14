@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tracer - Overwatch — KELVIN BIANCHI</title>
+    <title>AI Unreal Course - Final Project — KELVIN BIANCHI</title>
     <link rel="icon" href="../../assets/favicon.ico" />
     <link
       rel="stylesheet"
@@ -83,19 +83,20 @@
           <div class="columns">
             <div class="column">
               <figure class="image is-flex-mobile has-text-centered">
-                <iframe src="https://drive.google.com/file/d/1Qh9uDUHiy-SwDNnj1tYQcMxX8JJAA45h/preview" width="583" height="328"></iframe>
+                <iframe src="https://drive.google.com/file/d/16sUQkLuTpxfuNFQqiifnlwQR25y8Z5UU/preview" width="583" height="328"></iframe>
               </figure>
               <div class="content has-text-centered" style="padding-top: 1rem;">
-                <a class="button is-primary" href="https://github.com/gahgsp/tracer-overwatch" target="_blank">Source Code</a>
+                <a class="button is-primary" href="https://github.com/gahgsp/unreal-engine-ai-introduction-course" target="_blank">Source Code</a>
               </div>
             </div>
             <div class="column">
               <div class="content">
-                <h1 class="is-uppercase has-text-weight-light">Tracer - Overwatch</h1>
+                <h1 class="is-uppercase has-text-weight-light">AI Unreal Engine Course - Final Project</h1>
                 <p
                   class="has-text-weight-light is-game-description has-gray-text"
                 >
-                  The goal of this project was to recreate Tracer's core mechanics in order to improve my programming skills using Unity and C#.
+                  This is the result after completing the "Introduction to AI with Blueprints" available on Learn Unreal.<br>
+                  After finishing the course, I developed new features to the project as a challenge to improve the AI character.
                 </p>
                 <p>
                   <strong
@@ -104,7 +105,7 @@
                   >
                   <strong
                     class="has-text-weight-light has-gray-text is-game-description"
-                    >Unity, C#</strong
+                    >Unreal Engine, Blueprint, EQS, Blackboard, Behavior Tree</strong
                   >
                 </p>
               </div>
@@ -115,62 +116,37 @@
               <hr />
               <div class="content">
                 <h3 class="has-text-weight-light is-uppercase">
-                  Development process:&nbsp;
+                  AI features:&nbsp;
                 </h3>
                 <p class="has-text-weight-light is-game-description has-gray-text">
-                  Before starting programming the mechanics, first I decided what would be the scope for this project.<br>
-                  As I wanted to learn more about the programming side of Unity, I've decided to focus on the core mechanics and the functional parts, excluding many of the visual effects while casting the abilities.<br>
-                  With this reduced scope I was able to focus solely on developing a highly customizable and clean code, that can be applied in different projects.
+                  The AI consists in the following flow:<br><br>
+                  The AI character starts searching for the player on a random path, each step the AI character takes, a "Hunger Level" is increased. If the AI character finds the player, it starts to follow the player and once it gets closer enough, the AI character will start attacking the player.<br>
+                  Chasing the player also increases the "Hunger Level" that when it reaches the maximum level, the AI character will hide from the player and afterwards it will start looking for "Food Sources" using the EQS feature.<br>
+                  <br>
+                  The AI can also hear the player. If the AI character hears something, it will suspect and then investigate.<br>
+                  The AI character has the ability to jump with the use of Navigation Links.
                 </p>
-                <div class="columns">
-                  <div class="column is-one-quarter">
-                    <figure class="image is-game-gallery-image">
-                      <img
-                        src="../../assets/img/gallery/tracer-overwatch/pulse-pistol.PNG"
-                        alt="Overwatch - Tracer: Pulse Pistol - KELVIN BIANCHI - Gameplay Project"
-                      />
-                    </figure>
-                  </div>
-                  <div class="column is-one-quarter">
-                    <figure class="image is-game-gallery-image">
-                      <img
-                        src="../../assets/img/gallery/tracer-overwatch/blink-properties.PNG"
-                        alt="Overwatch - Tracer: Blink - KELVIN BIANCHI - Gameplay Project"
-                      />
-                    </figure>
-                  </div>
-                  <div class="column is-one-quarter">
-                    <figure class="image is-game-gallery-image">
-                      <img
-                        src="../../assets/img/gallery/tracer-overwatch/recall-properties.PNG"
-                        alt="Overwatch - Tracer: Recall - KELVIN BIANCHI - Gameplay Project"
-                      />
-                    </figure>
-                  </div>
-                  <div class="column is-one-quarter">
-                    <figure class="image is-game-gallery-image">
-                      <img
-                        src="../../assets/img/gallery/tracer-overwatch/pulse-bomb.PNG"
-                        alt="Overwatch - Tracer: Pulse Bomb - KELVIN BIANCHI - Gameplay Project"
-                      />
-                    </figure>
-                  </div>
-                </div>
               </div>
               <hr />
               <div class="content">
                 <h3 class="has-text-weight-light is-uppercase">
-                  What I did:&nbsp;
+                  What I've learned:&nbsp;
                 </h3>
                 <ol type="1">
                   <li class="is-game-description">
-                    Developed from scratch the core mechanics and abilities: Pulse Pistols, Blink, Recall and Pulse Bomb;
+                    Basics features for AI implementation on Unreal Engine such as the Blackboard and Behavior Trees;
                   </li>
                   <li class="is-game-description">
-                    Implemented the First Person features like Camera and Movement;
+                    How to implement interactions between the Blueprints and the AI features like AI Controller, NavMesh, AI Perception and AI Gameplay Debugger; 
                   </li>
                   <li class="is-game-description">
-                    Built a high customizable and easy to maintain code that can be used in many different projects.
+                    How and when to use Sequences and Selectors;
+                  </li>
+                  <li class="is-game-description">
+                    Use of EQS system in order to make the AI interact with the environment; 
+                  </li>
+                  <li class="is-game-description">
+                    Implementation of Tasks, Services and Decorators.
                   </li>
                 </ol>
               </div>
