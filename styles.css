@@ -61,3 +61,7 @@ h1, h3, strong {
   height: 450px;
   width: 450px;
 }
+
+.has-no-margin {
+  margin: 0;
+}

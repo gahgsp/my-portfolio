@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AI Unreal Course - Final Project — KELVIN BIANCHI</title>
+    <title>AI - The Last of Us — KELVIN BIANCHI</title>
     <link rel="icon" href="../../assets/favicon.ico" />
     <link
       rel="stylesheet"
@@ -82,12 +82,12 @@
             </div>
             <div class="column">
               <div class="content">
-                <h1 class="is-uppercase has-text-weight-light">AI Unreal Engine Course - Final Project</h1>
+                <h1 class="is-uppercase has-text-weight-light">AI - The Last of Us - Ellie</h1>
                 <p
                   class="has-text-weight-light is-game-description has-gray-text"
                 >
-                  This is the result of completing the "Introduction to AI with Blueprints" available on Learn Unreal.<br>
-                  After finishing the course, I developed new features in the project as a challenge to improve the AI character.
+                  The goal of this project was to practice AI using Unity.<br>
+                  To celebrate the launching of the game The Last of Us 2, I've decided to implement one of the Ellie's behavior when fighting enemies.
                 </p>
                 <p>
                   <strong
@@ -96,7 +96,7 @@
                   >
                   <strong
                     class="has-text-weight-light has-gray-text is-game-description"
-                    >Unreal Engine, Blueprint, EQS, Blackboard, Behavior Tree</strong
+                    >Unity</strong
                   >
                 </p>
               </div>
@@ -107,37 +107,53 @@
               <hr />
               <div class="content">
                 <h3 class="has-text-weight-light is-uppercase">
-                  AI features:&nbsp;
+                  Overview:&nbsp;
                 </h3>
                 <p class="has-text-weight-light is-game-description has-gray-text">
-                  The AI consists of the following flow:<br><br>
-                  The AI character starts searching for the player in a random path, each step the AI character takes, a "Hunger Level" is increased. If the AI character finds the player, it starts to follow the player and once it gets closer enough, the AI character will start attacking the player.<br>
-                  Chasing the player also increases the "Hunger Level" that when it reaches the maximum level, the AI character will hide from the player and afterwards it will start looking for "Food Sources" using the EQS feature.<br>
-                  <br>
-                  The AI can also hear the player. If the AI character hears something, it will suspect and then investigate.<br>
-                  The AI character has the ability to jump with the use of Navigation Links.
+                  With the launching of the second game from the Last the of Us, I've decided to recreate a scene that was one of the most famous from the early trailers. The scene shown the AI character Ellie flanking enemies and throwing objects at them in order to distract them so the player could reload his gun, find a better cover of even heal himself.
+                  <br><br>
+                  In this project I implemented the behavior when both of the main characters are confronted by enemies.
+                  <br><br>
+                  The AI will behave based on the flow below:
+                </p>
+                <figure class="image is-game-gallery-image">
+                  <img
+                    src="../../assets/img/gallery/ai-tlou/ai-tlou-flow.png"
+                    alt="AI - The Last of Us: Flow - KELVIN BIANCHI - Gameplay Project"
+                  />
+                </figure>
+                <p class="has-text-weight-light is-game-description has-gray-text">
+                  So, once loading the scene the AI will look for the closest enemy to and then search through the cover positions to find which one is best suitable to be closer and also safe from this enemy. Once finding the best spot, the AI will go to this position and then throw an object at the enemy, that will react turning it's attention to the AI character.
                 </p>
               </div>
               <hr />
               <div class="content">
                 <h3 class="has-text-weight-light is-uppercase">
-                  What I've learned:&nbsp;
+                  What could be improved:&nbsp;
                 </h3>
                 <ol type="1">
                   <li class="is-game-description">
-                    Basics features for AI implementation on Unreal Engine such as the Blackboard and Behavior Trees;
+                    The AI could have a maximum range for both searching for enemies and covers;
                   </li>
                   <li class="is-game-description">
-                    How to implement interactions between the Blueprints and the AI features e.g. AI Controller, NavMesh, AI Perception and AI Gameplay Debugger; 
+                    The AI also could have a maximum throw distance, this would lead to different patterns of getting closer to the enemy by moving through different cover positions until it reaches a distance available for the throwing.
+                  </li>
+                </ol>
+              </div>
+              <hr />
+              <div class="content">
+                <h3 class="has-text-weight-light is-uppercase">
+                  What I learned:&nbsp;
+                </h3>
+                <ol type="1">
+                  <li class="is-game-description">
+                    Use of NavMesh and NavMeshAgent;
                   </li>
                   <li class="is-game-description">
-                    How and when to use Sequences and Selectors;
+                    Using different properties from colliders to identify the points of contact in order to better react when being hit;
                   </li>
                   <li class="is-game-description">
-                    Use of EQS system in order to make the AI interact with the environment; 
-                  </li>
-                  <li class="is-game-description">
-                    Implementation of Tasks, Services and Decorators.
+                    Implement a behavior widely applied in adventure / action games.
                   </li>
                 </ol>
               </div>
