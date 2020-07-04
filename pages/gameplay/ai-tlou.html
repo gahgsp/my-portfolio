@@ -74,10 +74,10 @@
           <div class="columns">
             <div class="column">
               <figure class="image is-flex-mobile has-text-centered">
-                <iframe src="https://drive.google.com/file/d/16sUQkLuTpxfuNFQqiifnlwQR25y8Z5UU/preview" width="583" height="328"></iframe>
+                <iframe src="https://drive.google.com/file/d/10qtE-FIlgu3w2naJEUOSwnYG7N2tCS1K/preview" width="583" height="328"></iframe>
               </figure>
               <div class="content has-text-centered" style="padding-top: 1rem;">
-                <a class="button is-primary" href="https://github.com/gahgsp/unreal-engine-ai-introduction-course" target="_blank">Source Code</a>
+                <a class="button is-primary" href="https://github.com/gahgsp/tlou-scene" target="_blank">Source Code</a>
               </div>
             </div>
             <div class="column">
@@ -110,7 +110,7 @@
                   Overview:&nbsp;
                 </h3>
                 <p class="has-text-weight-light is-game-description has-gray-text">
-                  With the launching of the second game from the Last the of Us, I've decided to recreate a scene that was one of the most famous from the early trailers of the first game. The scene shown the AI character Ellie flanking enemies and throwing objects at them in order to create a distraction so the player could reload his gun, find a better cover of even heal himself.
+                  With the launching of the second game from the Last the of Us, I've decided to recreate a scene that was one of the most famous from the early trailers of the first game. The scene shows the AI character Ellie flanking enemies and throwing objects at them in order to create a distraction so the player could reload his gun, find a better cover of even heal himself.
                   <br><br>
                   In this project I implemented the behavior when both of the main characters are confronted by enemies.
                   <br><br>
@@ -125,20 +125,26 @@
                 <p class="has-text-weight-light is-game-description has-gray-text">
                   So, once loading the scene the AI will look for the closest enemy to and then search through the cover positions to find which one is best suitable to be closer and also safe from this enemy. Once finding the best spot, the AI will go to this position and then throw an object at the enemy, that will react turning it's attention to the AI character.
                 </p>
-              </div>
-              <hr />
-              <div class="content">
-                <h3 class="has-text-weight-light is-uppercase">
-                  What could be improved:&nbsp;
-                </h3>
-                <ol type="1">
-                  <li class="is-game-description">
-                    The AI could have a maximum range for both searching for enemies and covers;
-                  </li>
-                  <li class="is-game-description">
-                    The AI also could have a maximum throw distance, this would lead to different patterns of getting closer to the enemy by moving through different cover positions until it reaches a distance available for the throwing.
-                  </li>
-                </ol>
+                <p class="has-text-weight-light is-game-description has-gray-text">
+                  Below there are some examples of the AI finding the best cover position to hide from the enemy:
+                </p>
+                <div class="columns">
+                  <div class="column is-one-third">
+                    <figure class="image is-flex-mobile has-text-centered">
+                      <iframe src="https://drive.google.com/file/d/10qtE-FIlgu3w2naJEUOSwnYG7N2tCS1K/preview" width="410" height="300"></iframe>
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="image is-flex-mobile has-text-centered">
+                      <iframe src="https://drive.google.com/file/d/1u2PCQKbzM9z-Y5CEJXTLn1Esl3sLx-Ur/preview" width="410" height="300"></iframe>
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="image is-flex-mobile has-text-centered">
+                      <iframe src="https://drive.google.com/file/d/1-zRjra2o051NHBNp29455aBTCLKuwiJT/preview" width="410" height="300"></iframe>
+                    </figure>
+                  </div>
+                </div>
               </div>
               <hr />
               <div class="content">
@@ -147,7 +153,7 @@
                 </h3>
                 <ol type="1">
                   <li class="is-game-description">
-                    Use of NavMesh and NavMeshAgent;
+                    Better understanding of NavMesh and NavMeshAgent;
                   </li>
                   <li class="is-game-description">
                     Using different properties from colliders to identify the points of contact in order to better react when being hit;
